@@ -1,4 +1,5 @@
 What is this device?
+
 This is a device which detects sudden change in temperatures using Z-score analysis of the latest (FRAME_SIZE) number of inputs.
 
 Description: 
