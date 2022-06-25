@@ -1,4 +1,5 @@
 What is this device?
+
 This is a device that detects a sudden change in temperatures using a Z-score analysis of the latest (FRAME_SIZE) number of inputs.
 Description: In making this device and code I have used the Bolt wifi module and Bolt python library to collect input every 10 seconds and I have used python to make a Z-score analysis of the input temperature using the latest (FRAME_SIZE) number of inputs which are stored in a list named 'history_data'. and if the input temperature crosses the threshold set by the Z-score i.e. the immediate last input + Z-score then I have set it to send a mail to my account by using an application called 'mailgun'.
 
