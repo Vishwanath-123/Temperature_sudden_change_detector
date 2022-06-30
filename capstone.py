@@ -1,4 +1,4 @@
-import email_conf1
+import email_conf
 import math
 import statistics
 from boltiot import Email, Bolt
